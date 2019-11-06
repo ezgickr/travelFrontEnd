@@ -1,0 +1,8 @@
+<h2>CITIES</h2>
+<div *ngFor="let city of cities">
+<h3>
+  <a [title]="city.name + ' attractions'" routerLink="/attractions/{{city.name}}">
+    {{city.name}}
+  </a>
+</h3>
+</div>
