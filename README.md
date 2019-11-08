@@ -2,6 +2,13 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
 
+This project is the frontend part of the [Travel](https://github.com/ezgickr/travel) project. It consumes Rest web services from travel project.
+Below link it displays some cities :
+`http://localhost:4200/cities`
+
+After clicking any cities from the list it lists some historical places, attractions in the clicked city.
+`http://localhost:4200/attractions/"cityName"`(Ex: http://localhost:4200/attractions/Florence)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
